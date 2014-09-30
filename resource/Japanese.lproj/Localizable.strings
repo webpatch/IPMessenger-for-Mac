@@ -1,0 +1,198 @@
+/* Localized versions of Localizable.strings keys */
+
+/* VersionMessage */
+"Version.Msg.string"		= "Mac OS X版 Ver%@";
+
+/* General */
+"Message.DefaultFontName"	= "Osaka-Mono";
+"IPMsg.HomePage"			= "http://ishwt.net/software/ipmsg/";
+
+/* Shutdown Confirm */
+	/* (If Receive Window(s) shown) */
+"ShutDown.Confirm1.Title"	= "開いている受信ウィンドウがあります";
+"ShutDown.Confirm1.Msg"		= "本当に IP Messenger を終了してもよろしいですか？";
+"ShutDown.Confirm1.OK"		= "　終了　";
+"ShutDown.Confirm1.Cancel"	= "キャンセル";
+	/* (If Non-Popup Message exsits) */
+"ShutDown.Confirm2.Title"	= "未読の受信メッセージがあります";
+"ShutDown.Confirm2.Msg"		= "本当に IP Messenger を終了してもよろしいですか？";
+"ShutDown.Confirm2.OK"		= "　終了　";
+"ShutDown.Confirm2.Cancel"	= "キャンセル";
+"ShutDown.Confirm2.Other"	= "未読を開く";
+
+/* ReceiveDialog */
+"RecvDlg.BoxTitleAbsence"				= "Message from（不在モード）...";
+"RecvDlg.BoxTitleMulti"					= "Multicast from...";
+"RecvDlg.BoxTitleBroad"					= "Broadcast from...";
+"RecvDlg.LockBtnStr"					= "開封（錠前付）";
+"RecvDlg.PwdChk.NoPwd"					= "パスワードが入力されていません。";
+"RecvDlg.PwdChk.PwdErr"					= "パスワードが一致しません。";
+"RecvDlg.URL.Delimiter"					= " 　\t\n";
+"RecvDlg.AttachFileOverwrite.Title"		= "同名のファイルが存在します";
+"RecvDlg.AttachFileOverwrite.OK"		= "OK";
+"RecvDlg.AttachFileOverwrite.Cancel"	= "キャンセル";
+"RecvDlg.AttachFileOverwrite.Msg"		= "ファイル \"%@\" は既に存在します。
+上書きしてもよろしいですか？";
+"RecvDlg.AttachDirOverwrite.Title"		= "同名のフォルダが存在します";
+"RecvDlg.AttachDirOverwrite.OK"			= "OK";
+"RecvDlg.AttachDirOverwrite.Cancel"		= "キャンセル";
+"RecvDlg.AttachDirOverwrite.Msg"		= "フォルダ \"%@\" は既に存在します。
+上書きしてもよろしいですか？
+フォルダを上書きすると、現在のフォルダ配下の全ての既存ファイルは削除されます。";
+"RecvDlg.Attach.NoPermission.Title"		= "既存ファイルの削除に失敗しました";
+"RecvDlg.Attach.NoPermission.OK"		= "OK";
+"RecvDlg.Attach.NoPermission.Msg"		= "\"%@\"に対する適切なアクセス権がありません。";
+"RecvDlg.Attach.SelectBtn"				= "選択";
+"RecvDlg.Attach.Header"					= "添付ファイル（%d）";
+"RecvDlg.AttachSheet.Title"				= "ダウンロード中...（%d/%d）";
+"RecvDlg.AttachSheet.Start"				= "ダウンロード準備中...";
+"RecvDlg.AttachSheet.Finish"			= "ダウンロード完了";
+"RecvDlg.CloseWithAttach.Title"			= "添付ファイルが残っています";
+"RecvDlg.CloseWithAttach.Msg"			= "ダウンロードしていない受信添付ファイルがあります。
+ウィンドウを閉じてもよろしいですか？";
+"RecvDlg.CloseWithAttach.OK"			= "閉じる";
+"RecvDlg.CloseWithAttach.Cancel"		= "キャンセル";
+"RecvDlg.CloseWithSeal.Title"			= "封書未開封";
+"RecvDlg.CloseWithSeal.Msg"				= "封書を開いていません。
+ウィンドウを閉じてもよろしいですか？";
+"RecvDlg.CloseWithSeal.OK"				= "閉じる";
+"RecvDlg.CloseWithSeal.Cancel"			= "キャンセル";
+"RecvDlg.DownloadError.Title"			= "添付ファイルダウンロード失敗";
+"RecvDlg.DownloadError.OK"				= "OK";
+"RecvDlg.DownloadError.TimeOut"			= "送受信タイムアウトが発生しました。（%d）";
+"RecvDlg.DownloadError.Socket"			= "ネットワークエラーが発生しました。（%d）";
+"RecvDlg.DownloadError.Connect"			= "送信元に接続できません。（%d）";
+"RecvDlg.DownloadError.Disconnected"	= "送信元から切断されました。（%d）";
+"RecvDlg.DownloadError.Communication"	= "送受信エラーが発生しました。（%d）";
+"RecvDlg.DownloadError.FileOpen"		= "ファイルを開くことができませんでした。（%d）";
+"RecvDlg.DownloadError.InvalidData"		= "受信データ異常が発生しました。（%d）";
+"RecvDlg.DownloadError.Internal"		= "内部エラーが発生しました。（%d）";
+"RecvDlg.DownloadError.FileSize"		= "受信データサイズ異常が発生しました。（%d）";
+"RecvDlg.DownloadError.OtherError"		= "内部エラーが発生しました。（%d）";
+
+/* SendDialog */
+"SendDlg.UserNumStr"					= "%d / %d";
+"SendDlg.Search.Target.User"			= "ユーザ";
+"SendDlg.Search.Target.Group"			= "グループ";
+"SendDlg.Search.Target.Host"			= "ホスト";
+"SendDlg.Search.Target.LogOn"			= "ログオン";
+"SendDlg.Search.Placeholder.Separator"	= "、";
+"SendDlg.Search.Placeholder.Normal"		= "%@を検索";
+"SendDlg.Search.Placeholder.Invalid"	= "検索対象がありません";
+"SendDlg.AbsenceOff.Title"				= "不在モード中";
+"SendDlg.AbsenceOff.OK"					= "解除して送信";
+"SendDlg.AbsenceOff.Cancel"				= "キャンセル";
+"SendDlg.AbsenceOff.Msg"				= "不在通知モード（%@）になっています。
+解除して送信しますか？";
+"SendDlg.Attach.Header"					= "添付ファイル（%d）";
+/* Send Retry out Confirm */
+"Send.Retry.Title"			= "メッセージを再送しますか？";
+"Send.Retry.Msg"			= "%@へのメッセージ送信に失敗しました。";
+"Send.Retry.OK"				= "再送";
+"Send.Retry.Cancel"			= "キャンセル";
+
+/* MesssageBoxDialogs */
+"SealOpenDlg.title"			= "封書が開封されました";
+
+/* RefuseCondition Info */
+"Refuse.Description.Format"	= "%@が「%@」%@";
+"Refuse.Desc.Name"			= "ユーザ名";
+"Refuse.Desc.Group"			= "グループ名";
+"Refuse.Desc.Machine"		= "マシン名";
+"Refuse.Desc.LogOn"			= "ログオン名";
+"Refuse.Desc.IPAddress"		= "IPアドレス";
+"Refuse.Desc.Match"			= "と一致する";
+"Refuse.Desc.Contain"		= "を含む";
+"Refuse.Desc.Start"			= "で始まる";
+"Refuse.Desc.End"			= "で終わる";
+
+/* Error Alert Panel Strings */
+"Err.DynStoreCreate.title"	= "システム情報取得設定エラー";
+"Err.DynStoreCreate.msg"	= "DynamicStore 生成エラーです。";
+"Err.UDPSocketOpen.title"	= "ネットワーク初期化エラー";
+"Err.UDPSocketOpen.msg"		= "UDP ソケットオープンエラーです。";
+"Err.UDPSocketBind.title"	= "ネットワーク初期化エラー（バインドエラー）";
+"Err.UDPSocketBind.msg"		= "ポート番号 %d （UDP）は既に他のプログラムによって使用されています。";
+"Err.UDPSocketBind.ok"		= "終了";
+"Err.UDPSocketBind.alt"		= "ポート番号変更";
+"Err.TCPSocketOpen.title"	= "ネットワーク初期化エラー";
+"Err.TCPSocketOpen.msg"		= "TCP ソケット生成エラーです。
+添付ファイルの送信機能は利用できません。";
+"Err.TCPSocketOpen.ok"		= "OK";
+"Err.TCPSocketBind.title"	= "ネットワーク初期化エラー（バインドエラー）";
+"Err.TCPSocketBind.msg"		= "ポート番号 %d （TCP）は既に他のプログラムによって使用されています。
+添付ファイルの送信機能は利用できません。";
+"Err.TCPSocketBind.ok"		= "OK";
+"Err.TCPSocketListen.title"	= "ネットワーク初期化エラー（listen)";
+"Err.TCPSocketListen.msg"	= "添付ファイル送信サーバの初期化に失敗しました。
+添付ファイルの送信機能は利用できません。";
+"Err.TCPSocketListen.ok"	= "OK";
+"Err.NetCheck.title"		= "ネットワーク情報取得エラー";
+"Err.NetCheck.msg"			= "アドレスの取得に失敗しました。
+ネットワークに接続していない可能性があります。";
+
+/* Preference Panel */
+	/* Password Modify */
+"Pref.PwdMod.NoOldPwd"		= "旧パスワードが入力されていません。";
+"Pref.PwdMod.OldPwdErr"		= "旧パスワードが一致しません。";
+"Pref.PwdMod.NewPwdErr"		= "新パスワードが再入力と一致しません。";
+	/* Broadcast Append */
+"Pref.Broadcast.EmptyIP"	= "IPアドレスが入力されていません。";
+"Pref.Broadcast.EmptyHost"	= "ホスト名が入力されていません。";
+"Pref.Broadcast.WrongIP"	= "有効なIPアドレスではありません。";
+"Pref.Broadcast.ExistIP"	= "既に登録されているIPアドレスです。";
+"Pref.Broadcast.ExistHost"	= "既に登録されているホスト名です。";
+"Pref.Broadcast.UnknownHost"= "アドレスを解決できません。";
+	/* Absence Add/Edit/Reset */
+"Pref.Absence.NoTitle"		= "タイトルが入力されていません。";
+"Pref.Absence.NoMessage"	= "メッセージが入力されていません。";
+"Pref.Absence.ExistTitle"	= "既に登録されている不在定義です。";
+"Pref.AbsenceReset.Title"	= "不在モード定義のリセット";
+"Pref.AbsenceReset.Msg"		= "不在モードの定義を初期状態にリセットします。
+リセットすると全てのカスタマイズされた不在モード定義は失われます。";
+"Pref.AbsenceReset.OK"		= "リセット";
+"Pref.AbsenceReset.Cancel"	= "キャンセル";
+	/* Absence Default Value */
+"Pref.Absence.Def0.Title"	= "不在";
+"Pref.Absence.Def0.Message"	= "ただいま、席をはずしております。";
+"Pref.Absence.Def1.Title"	= "食事中";
+"Pref.Absence.Def1.Message"	= "食事中です。";
+"Pref.Absence.Def2.Title"	= "会議中";
+"Pref.Absence.Def2.Message"	= "会議中です。";
+"Pref.Absence.Def3.Title"	= "来客中";
+"Pref.Absence.Def3.Message"	= "来客中です。";
+"Pref.Absence.Def4.Title"	= "外出中";
+"Pref.Absence.Def4.Message"	= "外出中です。";
+"Pref.Absence.Def5.Title"	= "帰宅";
+"Pref.Absence.Def5.Message"	= "帰宅しました。";
+"Pref.Absence.Def6.Title"	= "江戸";
+"Pref.Absence.Def6.Message"	= "江戸所払いを申し渡す！";
+"Pref.Absence.Def7.Title"	= "出家";
+"Pref.Absence.Def7.Message"	= "人生に疲れました...
+探さないでください...";
+	/* Refuse List */
+"Pref.Refuse.Error.NoInput"	= "文字列が入力されていません。";
+	/* Log */
+"Log.File.SaveSheet.OK"		= "決定";
+"Log.Type.Broadcast"		= "(同報)";
+"Log.Type.AutoRet"			= "(自)";
+"Log.Type.Multicast"		= "(多)";
+"Log.Type.Locked"			= "(鍵)";
+"Log.Type.Sealed"			= "(封)";
+"Log.Type.Attachment"		= "(添)";
+	/* Log Convertion */
+"Log.Conv.StdLog"			= "標準ログ";
+"Log.Conv.AltLog"			= "重要ログ";
+"Log.Conv.Title"			= "%@の変換";
+"Log.Conv.Message"			= "ログファイルの文字コードが変更になりました。
+現在の%@ファイルは変換する必要があります。
+変換してよろしいですか。
+
+\"いいえ\"を選ぶと、現在のログファイルはバックアップされてログファイルが新しくなります。";
+"Log.Conv.OK"				= "変換する";
+"Log.Conv.Cancel"			= "いいえ";
+"Log.ConvFail.Title"		= "ログファイルの変換に失敗しました。";
+"Log.ConvFail.Message"		= "ログファイルは新しくなります。オリジナルのログファイルはそのままバックアップされます。";
+"Log.ConvFail.OK"			= "OK";
+"Log.Backup.Title"			= "オリジナルのログファイルは待避されました";
+"Log.Backup.OK"				= "閉じる";

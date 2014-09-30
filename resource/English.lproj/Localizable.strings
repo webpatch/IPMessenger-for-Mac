@@ -1,0 +1,199 @@
+/* Localized versions of Localizable.strings keys */
+
+/* VersionMessage */
+"Version.Msg.string"		= "Mac OS X Ver%@";
+
+/* General */
+"Message.DefaultFontName"	= "Helvetica";
+"IPMsg.HomePage"			= "http://ishwt.net/en/software/ipmsg/";
+
+/* Shutdown Confirm */
+	/* (If Receive Window(s) shown) */
+"ShutDown.Confirm1.Title"	= "Open window exists.";
+"ShutDown.Confirm1.Msg"		= "Do you really want to quit IP Messenger?";
+"ShutDown.Confirm1.OK"		= "Quit";
+"ShutDown.Confirm1.Cancel"	= "Cancel";
+	/* (If Non-Popup Message exsits) */
+"ShutDown.Confirm2.Title"	= "Unread message exists.";
+"ShutDown.Confirm2.Msg"		= "Do you really want to quit IP Messenger?";
+"ShutDown.Confirm2.OK"		= "Quit";
+"ShutDown.Confirm2.Cancel"	= "Cancel";
+"ShutDown.Confirm2.Other"	= "Open unread";
+
+/* ReceiveDialog */
+"RecvDlg.BoxTitleAbsence"				= "Message from (Absence Mode) ...";
+"RecvDlg.BoxTitleMulti"					= "Multicast from...";
+"RecvDlg.BoxTitleBroad"					= "Broadcast from...";
+"RecvDlg.LockBtnStr"					= "Open (Locked)";
+"RecvDlg.PwdChk.NoPwd"					= "Password not entered.";
+"RecvDlg.PwdChk.PwdErr"					= "Incorrect password.";
+"RecvDlg.URL.Delimiter"					= " 　\t\n";
+"RecvDlg.AttachFileOverwrite.Title"		= "Save";
+"RecvDlg.AttachFileOverwrite.OK"		= "Replace";
+"RecvDlg.AttachFileOverwrite.Cancel"	= "Cancel";
+"RecvDlg.AttachFileOverwrite.Msg"		= "File \"%@\" already exists.
+Replace it?";
+"RecvDlg.AttachDirOverwrite.Title"		= "Save";
+"RecvDlg.AttachDirOverwrite.OK"			= "Replace";
+"RecvDlg.AttachDirOverwrite.Cancel"		= "Cancel";
+"RecvDlg.AttachDirOverwrite.Msg"		= "Folder \"%@\" already exists.
+Replace it?
+Overwrite of a folder deletes all the existing files under the present folder.";
+"RecvDlg.Attach.NoPermission.Title"		= "Error in removing exist file/dir.";
+"RecvDlg.Attach.NoPermission.OK"		= "OK";
+"RecvDlg.Attach.NoPermission.Msg"		= "No permissions for \"%@\".";
+"RecvDlg.Attach.SelectBtn"				= "Choose";
+"RecvDlg.Attach.Header"					= "Attachments (%d)";
+"RecvDlg.AttachSheet.Title"				= "Downloading... (%d/%d)";
+"RecvDlg.AttachSheet.Start"				= "Preparing download...";
+"RecvDlg.AttachSheet.Finish"			= "Download complete.";
+"RecvDlg.CloseWithAttach.Title"			= "Attachment remaining.";
+"RecvDlg.CloseWithAttach.Msg"			= "Files not downloaded exist.
+Do you want close the window?";
+"RecvDlg.CloseWithAttach.OK"			= "Close";
+"RecvDlg.CloseWithAttach.Cancel"		= "Cancel";
+"RecvDlg.CloseWithSeal.Title"			= "Seal not Opened.";
+"RecvDlg.CloseWithSeal.Msg"				= "Seal not opened yet.
+Do you want close the window?";
+"RecvDlg.CloseWithSeal.OK"				= "Close";
+"RecvDlg.CloseWithSeal.Cancel"			= "Cancel";
+"RecvDlg.DownloadError.Title"			= "Download Error.";
+"RecvDlg.DownloadError.OK"				= "OK";
+"RecvDlg.DownloadError.TimeOut"			= "Communication timeout occurred. (%d)";
+"RecvDlg.DownloadError.Socket"			= "Network error occurred. (%d)";
+"RecvDlg.DownloadError.Connect"			= "Can not connect to sender. (%d)";
+"RecvDlg.DownloadError.Disconnected"	= "Connection closed by sender. (%d)";
+"RecvDlg.DownloadError.Communication"	= "Communication error occurred. (%d)";
+"RecvDlg.DownloadError.FileOpen"		= "File Open error occurred. (%d)";
+"RecvDlg.DownloadError.InvalidData"		= "Received invalid data. (%d)";
+"RecvDlg.DownloadError.Internal"		= "Internal error occurred. (%d)";
+"RecvDlg.DownloadError.FileSize"		= "Received data size invalid. (%d)";
+"RecvDlg.DownloadError.OtherError"		= "Other error occurred. (%d)";
+
+/* SendDialog */
+"SendDlg.UserNumStr"					= "%d / %d";
+"SendDlg.Search.Target.User"			= "User";
+"SendDlg.Search.Target.Group"			= "Group";
+"SendDlg.Search.Target.Host"			= "Host";
+"SendDlg.Search.Target.LogOn"			= "Logon";
+"SendDlg.Search.Placeholder.Separator"	= ", ";
+"SendDlg.Search.Placeholder.Normal"		= "Search %@";
+"SendDlg.Search.Placeholder.Invalid"	= "No search categories";
+"SendDlg.AbsenceOff.Title"				= "Absence mode";
+"SendDlg.AbsenceOff.OK"					= "Release & Send";
+"SendDlg.AbsenceOff.Cancel"				= "Cancel";
+"SendDlg.AbsenceOff.Msg"				= "Absence mode(%@) now.
+Release and send now?";
+"SendDlg.Attach.Header"					= "Attachments (%d)";
+/* Send Retry out Confirm */
+"Send.Retry.Title"			= "Do you want send the message again?";
+"Send.Retry.Msg"			= "Sending message to %@ failed.";
+"Send.Retry.OK"				= "Retry";
+"Send.Retry.Cancel"			= "Cancel";
+
+/* MesssageBoxDialogs */
+"SealOpenDlg.title"			= "Message Opened";
+
+/* RefuseCondition Info */
+"Refuse.Description.Format"	= "%1$@ %3$@ \"%2$@\"";
+"Refuse.Desc.Name"			= "User";
+"Refuse.Desc.Group"			= "Group";
+"Refuse.Desc.Machine"		= "Hostname";
+"Refuse.Desc.LogOn"			= "Login";
+"Refuse.Desc.IPAddress"		= "IP Address";
+"Refuse.Desc.Match"			= "matches";
+"Refuse.Desc.Contain"		= "contains";
+"Refuse.Desc.Start"			= "starts with";
+"Refuse.Desc.End"			= "ends with";
+
+/* Error Alert Panel Strings */
+"Err.DynStoreCreate.title"	= "SystemConfiguration initialization error";
+"Err.DynStoreCreate.msg"	= "DynamicStore create error.";
+"Err.UDPSocketOpen.title"	= "Network initialization error";
+"Err.UDPSocketOpen.msg"		= "UDP Socket open error.";
+"Err.UDPSocketBind.title"	= "Network initialization error (bind)";
+"Err.UDPSocketBind.msg"		= "Port No. %d (UDP) is already used.";
+"Err.UDPSocketBind.ok"		= "Quit";
+"Err.UDPSocketBind.alt"		= "Change Port No.";
+"Err.TCPSocketOpen.title"	= "Network initialization error";
+"Err.TCPSocketOpen.msg"		= "TCP Socket create error.
+Function for attachments is turned off.";
+"Err.TCPSocketOpen.ok"		= "OK";
+"Err.TCPSocketBind.title"	= "Network initialization error (bind)";
+"Err.TCPSocketBind.msg"		= "Port No. %d (TCP) is already used.
+Function for attachments is turned off.";
+"Err.TCPSocketBind.ok"		= "OK";
+"Err.TCPSocketListen.title"	= "Network initialization error (listen)";
+"Err.TCPSocketListen.msg"	= "Attachment Server initialization error.
+Function for attachments is turned off.";
+"Err.TCPSocketListen.ok"	= "OK";
+"Err.NetCheck.title"		= "Network Error";
+"Err.NetCheck.msg"			= "Network address not found.
+May not be connected to a network.";
+
+/* Preference Panel */
+    /* Password Modify */
+"Pref.PwdMod.NoOldPwd"		= "Enter old password.";
+"Pref.PwdMod.OldPwdErr"		= "Old password does not match.";
+"Pref.PwdMod.NewPwdErr"		= "Old password did not match.";
+	/* Broadcast Append */
+"Pref.Broadcast.EmptyIP"	= "No IP Address.";
+"Pref.Broadcast.EmptyHost"	= "No Hostname";
+"Pref.Broadcast.WrongIP"	= "IP Address is invalid.";
+"Pref.Broadcast.ExistIP"	= "IP Address already exist.";
+"Pref.Broadcast.ExistHost"	= "Hostname already exist";
+"Pref.Broadcast.UnknownHost"= "Can't resolve address";
+	/* Absence Add/Edit/Reset */
+"Pref.Absence.NoTitle"		= "No title.";
+"Pref.Absence.NoMessage"	= "No message.";
+"Pref.Absence.ExistTitle"	= "Definition already exists";
+"Pref.AbsenceReset.Title"	= "Reset abence definitions";
+"Pref.AbsenceReset.Msg"		= "Do you want to reinitialize absence definitions?
+All definitions you customized will be lost.";
+"Pref.AbsenceReset.OK"		= "Reset";
+"Pref.AbsenceReset.Cancel"	= "Cancel";
+	/* Absence Default Value */
+"Pref.Absence.Def0.Title"	= "Away";
+"Pref.Absence.Def0.Message"	= "I am away from my seat";
+"Pref.Absence.Def1.Title"	= "Meal";
+"Pref.Absence.Def1.Message"	= "Having Lunch";
+"Pref.Absence.Def2.Title"	= "Meeting";
+"Pref.Absence.Def2.Message"	= "In A Meeting";
+"Pref.Absence.Def3.Title"	= "Visitor";
+"Pref.Absence.Def3.Message"	= "With a visitor";
+"Pref.Absence.Def4.Title"	= "Out";
+"Pref.Absence.Def4.Message"	= "Out of office";
+"Pref.Absence.Def5.Title"	= "Home";
+"Pref.Absence.Def5.Message"	= "Away for home";
+"Pref.Absence.Def6.Title"	= "Edo";
+"Pref.Absence.Def6.Message"	= "Edo tokorobarai wo mousi watasu!";
+"Pref.Absence.Def7.Title"	= "Priest";
+"Pref.Absence.Def7.Message"	= "I am tired of life...
+Please don't look for me...";
+	/* Refuse List */
+"Pref.Refuse.Error.NoInput"	= "No input";
+	/* Log */
+"Log.File.SaveSheet.OK"		= "Choose";
+"Log.Type.Broadcast"		= "(broadcast)";
+"Log.Type.AutoRet"			= "(auto)";
+"Log.Type.Multicast"		= "(multi)";
+"Log.Type.Locked"			= "(locked)";
+"Log.Type.Sealed"			= "(sealed)";
+"Log.Type.Attachment"		= "(files)";
+	/* Log Convertion */
+"Log.Conv.StdLog"			= "Standerd Log";
+"Log.Conv.AltLog"			= "Alternate Log";
+"Log.Conv.Title"			= "%@ Conversion";
+"Log.Conv.Message"			= "Character encoding was changed.
+%@ file have to be converted.
+Are you sure you want to convert the log file?
+
+If you choose \"No\", current log file will be back up.";
+"Log.Conv.OK"				= "Convert";
+"Log.Conv.Cancel"			= "No";
+"Log.ConvFail.Title"		= "Log conversion failed";
+"Log.ConvFail.Message"		= "A new empty log file will be created.
+Current log file will be back up.";
+"Log.ConvFail.OK"			= "OK";
+"Log.Backup.Title"			= "Original Log File Backup";
+"Log.Backup.OK"				= "Close";
