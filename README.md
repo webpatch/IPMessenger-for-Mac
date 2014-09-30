@@ -8,6 +8,7 @@ fork from http://ishwt.net/en/software/ipmsg/
 
 * 修改tcp协议以支持与飞鸽传书互相传送文件
 * 修复发送中文消息时乱码
+* 优化界面，更好的用户体验
 
 ##下载
 ###IPMessenger for Mac
